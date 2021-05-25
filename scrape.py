@@ -1,18 +1,29 @@
-from bs4 import BeautifulSoup as bs
-import requests
+import json
 import os
-from urllib.parse import urlparse
 from datetime import datetime
 from pprint import pprint
+from urllib.parse import urlparse
+
+import requests
+from bs4 import BeautifulSoup as bs
 
 
 def main():
     url = "https://smbc-comics.com"
 
-    sauce = requests.get(url)
-    soup = bs(sauce.content, 'html.parser')
+    result = []
+    while url:
+        sauce = requests.get(url)
+        soup = bs(sauce.content, 'html.parser')
 
-    pprint(get_values(soup))
+        values = get_values(soup)
+        pprint(values)
+        result.append(values)
+
+        url = previous(soup)
+
+    with open('result.json', 'w') as out:
+        json.dump(result, out, indent='  ')
 
 
 def get_values(page):
@@ -24,6 +35,14 @@ def get_values(page):
         'extra_url': extra_comic_url(page),
         'permalink': permalink(page),
     }
+
+
+def previous(page):
+    prev = page.find(rel='prev')
+    if prev:
+        return prev['href']
+    else:
+        return None
 
 
 def comic_date(page):
