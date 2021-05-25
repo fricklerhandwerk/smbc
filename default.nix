@@ -8,5 +8,4 @@ let
 in
 mach-nix.mkPythonShell {
   requirements = builtins.readFile ./requirements.txt;
-  packagesExtra = with pkgs; [ firefox geckodriver ];
 }
