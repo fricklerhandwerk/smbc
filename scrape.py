@@ -8,13 +8,15 @@ import requests
 from bs4 import BeautifulSoup as bs
 
 
-# the first comic
-start = "https://www.smbc-comics.com/comic/2002-09-05"
-
-
 def main():
-    url = start
+    """
+    scrape comic metadata
+    """
 
+    # the first comic
+    start = "https://www.smbc-comics.com/comic/2002-09-05"
+
+    url = start
     while url:
         name = basename(url)
         path = Path(f'comics/{name}')
