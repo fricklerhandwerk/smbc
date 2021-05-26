@@ -68,31 +68,31 @@ def next_comic(page):
 def comic_title(page):
     title = page.title.string
     prefix = "Saturday Morning Breakfast Cereal - "
-    return title[len(prefix):]
+    return title[len(prefix):].strip()
 
 
 def comic_url(page):
     img = page.find(id='cc-comic')
-    return img['src']
+    return img['src'].strip()
 
 
 def hovertext(page):
     img = page.find(id='cc-comic')
-    return img['title']
+    return img['title'].strip()
 
 
 def extra_comic_url(page):
     after = page.find(id='aftercomic').img
-    return after['src']
+    return after['src'].strip()
 
 
 def permalink(page):
     permalink = page.find(id='permalinktext')
-    return permalink['value']
+    return permalink['value'].strip()
 
 
 def basename(url):
-    return os.path.basename(urlparse(url).path)
+    return os.path.basename(urlparse(url).path).strip()
 
 
 if __name__ == "__main__":
