@@ -8,41 +8,59 @@ import requests
 from bs4 import BeautifulSoup as bs
 
 
+# the first comic
+start = "https://www.smbc-comics.com/comic/2002-09-05"
+
+
 def main():
-    url = "https://smbc-comics.com"
+    url = start
 
     while url:
-        sauce = requests.get(url)
-        soup = bs(sauce.content, 'html.parser')
-
-        values = get_values(soup)
-
-        name = basename(values['permalink'])
+        name = basename(url)
         path = Path(f'comics/{name}')
 
-        if not path.exists():
-            path.mkdir()
-            with open(path/'data.json', 'w') as out:
-                pprint(values)
-                json.dump(values, out, indent='  ')
+        if path.exists():
+            print(f"Skipping {name}...")
+            with open(path/'data.json', 'r') as out:
+                url = json.load(out)['next']
+            continue
 
-        url = previous(soup)
+        sauce = requests.get(url)
+        soup = bs(sauce.content, 'html.parser')
+        values = get_values(soup)
+
+        path.mkdir(parents=True)
+        with open(path/'data.json', 'w') as out:
+            pprint(values)
+            json.dump(values, out, indent='  ')
+        url = next_comic(soup)
 
 
 def get_values(page):
     return {
         'title': comic_title(page),
-        'url': comic_url(page),
+        'image': comic_url(page),
         'hovertext': hovertext(page),
-        'extra_url': extra_comic_url(page),
-        'permalink': permalink(page),
+        'extra_image': extra_comic_url(page),
+        'url': permalink(page),
+        'prev': prev_comic(page),
+        'next': next_comic(page),
     }
 
 
-def previous(page):
+def prev_comic(page):
     prev = page.find(rel='prev')
     if prev:
         return prev['href']
+    else:
+        return None
+
+
+def next_comic(page):
+    # `next` is a keyword in Python
+    _next = page.find(rel='next')
+    if _next:
+        return _next['href']
     else:
         return None
 
