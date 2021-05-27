@@ -1,4 +1,5 @@
 import json
+import sys
 from pathlib import Path
 from urllib.request import urlretrieve
 
@@ -11,12 +12,11 @@ def main():
     download images based on local metadata
     """
 
-    for p in Path('comics').iterdir():
-        if p.is_dir():
-            with open(p/'data.json', 'r') as f:
-                data = json.load(f)
-            fetch(p, data['image'])
-            fetch(p, data['extra_image'])
+    p = Path(sys.argv[1])
+    with open(p/'data.json', 'r') as f:
+        data = json.load(f)
+    fetch(p, data['image'])
+    fetch(p, data['extra_image'])
 
 
 def fetch(p, url):
