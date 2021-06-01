@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'github-pages'
+gem 'haml'
+gem 'git'
+gem 'jekyll-minifier'
