@@ -1,0 +1,9 @@
+---
+extra_image: 157539284920191203after.png
+hovertext: Wild orchids are nice but not all that impressive, so really it's a subtle insult.
+id: affection
+image: 1575392704-20191203.png
+next: unique
+prev: thermopolymer
+title: Affection
+---

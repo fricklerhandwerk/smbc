@@ -1,0 +1,9 @@
+---
+extra_image: 1506690573-20170929after (1).png
+hovertext: It is too powerful. You must combine it with a phoenix egg, the milk of a unicorn, and some sugar and cinnamon. Only then will it take on a custardy texture.
+id: your-grandfather
+image: 1506690393-20170929 (1).png
+next: tell-my-wife
+prev: babyproofing
+title: Your Grandfather
+---

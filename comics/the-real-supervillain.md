@@ -1,0 +1,9 @@
+---
+extra_image: 1517582604-20180202after.png
+hovertext: Thanks to the patreon typo squad for pointing out that the original version of this had given Bizarro the wrong skin tone. Nerds.
+id: the-real-supervillain
+image: 1517582562-20180202.png
+next: self-assessment
+prev: the-future
+title: The Real Supervillain
+---

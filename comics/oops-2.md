@@ -1,0 +1,9 @@
+---
+extra_image: 1526301721-20180514after.png
+hovertext: Hey, at least they didn't open the portal in outer space.
+id: oops-2
+image: 1526301705-20180514.png
+next: astrobiology
+prev: coffee
+title: Oops
+---

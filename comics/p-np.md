@@ -1,0 +1,9 @@
+---
+extra_image: 1449936034-20151212after.png
+hovertext: Ironically, in the first draft of this comic, I misspelled Sullooshun.
+id: p-np
+image: 1449937544-20151212.png
+next: passwords
+prev: why-has-no-one-invented-this
+title: P = NP
+---

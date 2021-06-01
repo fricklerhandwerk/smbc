@@ -1,0 +1,9 @@
+---
+extra_image: 1522335982-20180329after (1).png
+hovertext: Look, all I'm saying is that other people are offering better rates and from a statistical perspective you are IDENTICAL.
+id: wholesale
+image: 1522335962-20180329.png
+next: god-is-crying
+prev: princess
+title: Wholesale
+---
