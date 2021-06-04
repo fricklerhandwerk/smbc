@@ -1,0 +1,12 @@
+source: source
+image: https://www.smbc-comics.com/comics/
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+collections:
+  comics:
+    output: true
+    layout: default
