@@ -25,7 +25,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 
 ### Scrape metadata
 
-Go through all strips on smbc-comics.com and extract meta data to JSON.
+Go through all strips on smbc-comics.com and extract meta data to YAML headers of markdown files.
 
 ```sh
 nix-shell --run "script/scrape.py"

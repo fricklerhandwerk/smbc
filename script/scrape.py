@@ -1,13 +1,18 @@
 #!/usr/bin/env python
 
-import json
+import logging as log
 import os
 from pathlib import Path
-from pprint import pprint
+from pprint import pformat
 from urllib.parse import urlparse
 
 import requests
+import yaml
 from bs4 import BeautifulSoup as bs
+
+base = "https://www.smbc-comics.com/comic/"
+
+log.basicConfig(level=os.environ.get('LOGLEVEL', 'INFO').upper())
 
 
 def main():
@@ -15,29 +20,34 @@ def main():
     scrape comic metadata
     """
 
-    # the first comic
-    start = "https://www.smbc-comics.com/comic/2002-09-05"
+    comic = scrape("https://www.smbc-comics.com")['comic']
 
-    url = start
-    while url:
-        name = basename(url)
-        path = Path(f'comics/{name}')
+    while comic:
+        path = Path(f'source/comics/{comic}.md')
 
         if path.exists():
-            print(f"Skipping {name}...")
-            with open(path/'data.json', 'r') as out:
-                url = json.load(out)['next']
+            log.info(f"Skipping {comic}")
+            with open(path, 'r') as f:
+                # split out YAML header
+                _, header, content = f.read().split('---', maxsplit=2)
+                comic = yaml.load(header, yaml.SafeLoader)['prev']
             continue
 
-        sauce = requests.get(url)
-        soup = bs(sauce.content, 'html.parser')
-        values = get_values(soup)
+        values = scrape(base + comic)
 
-        path.mkdir(parents=True)
-        with open(path/'data.json', 'w') as out:
-            pprint(values)
-            json.dump(values, out, indent='  ')
-        url = next_comic(soup)
+        with open(path, 'w') as f:
+            del values['comic']
+            log.info(pformat(values))
+            # `width=` sets maximum line length
+            # https://stackoverflow.com/questions/18514205/how-to-prevent-yaml-to-dump-long-line-without-new-line/18526119#18526119
+            f.write(markdown(yaml.dump(values, width=float("inf"))))
+        comic = values['prev']
+
+
+def scrape(url):
+    sauce = requests.get(url)
+    soup = bs(sauce.content, 'html.parser')
+    return get_values(soup)
 
 
 def get_values(page):
@@ -46,7 +56,7 @@ def get_values(page):
         'image': comic_url(page),
         'hovertext': hovertext(page),
         'extra_image': extra_comic_url(page),
-        'url': permalink(page),
+        'comic': permalink(page),
         'prev': prev_comic(page),
         'next': next_comic(page),
     }
@@ -55,7 +65,7 @@ def get_values(page):
 def prev_comic(page):
     prev = page.find(rel='prev')
     if prev:
-        return prev['href']
+        return prev['href'][len(base):]
     else:
         return None
 
@@ -64,7 +74,7 @@ def next_comic(page):
     # `next` is a keyword in Python
     _next = page.find(rel='next')
     if _next:
-        return _next['href']
+        return _next['href'][len(base):]
     else:
         return None
 
@@ -92,11 +102,19 @@ def extra_comic_url(page):
 
 def permalink(page):
     permalink = page.find(id='permalinktext')
-    return permalink['value'].strip()
+    prefix = "http://smbc-comics.com/comic/"
+    return permalink['value'].strip()[len(prefix):]
 
 
 def basename(url):
     return os.path.basename(urlparse(url).path).strip()
+
+
+def markdown(data):
+    """
+    write markdown YAML header
+    """
+    return f"---\n{data}---\n"
 
 
 if __name__ == "__main__":
