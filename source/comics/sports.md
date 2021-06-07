@@ -1,8 +1,7 @@
 ---
-extra_image: 1438354236-20150731after.png
+extra_image: https://www.smbc-comics.com/comics/1438354236-20150731after.png
 hovertext: That's the safe word!
-id: sports
-image: 1438354236-20150731.png
+image: https://www.smbc-comics.com/comics/1438354236-20150731.png
 next: exam-nightmare
 prev: cleaning-algorithms
 title: Sports

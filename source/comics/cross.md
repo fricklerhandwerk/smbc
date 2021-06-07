@@ -1,8 +1,7 @@
 ---
-extra_image: 154324630920181126after.png
+extra_image: https://www.smbc-comics.com/comics/154324630920181126after.png
 hovertext: My wife doesn't find this sort of thing particularly funny, but I WILL NOT BE CRUCIFIED ON THIS CROSS OF WIFE
-id: cross
-image: 1543246237-20181126.png
+image: https://www.smbc-comics.com/comics/1543246237-20181126.png
 next: fear
 prev: daily-grind
 title: Cross

@@ -1,8 +1,7 @@
 ---
-extra_image: 1446653035-20151104after.png
+extra_image: https://www.smbc-comics.com/comics/1446653035-20151104after.png
 hovertext: OH MY GOD I just realized we haven't accounted for relativity.
-id: heaven-2
-image: 1446653035-20151104.png
+image: https://www.smbc-comics.com/comics/1446653035-20151104.png
 next: checkers
 prev: machines-vs-jobs
 title: Heaven

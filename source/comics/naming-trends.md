@@ -1,8 +1,7 @@
 ---
-extra_image: 1478100535-20161102after.png
+extra_image: https://www.smbc-comics.com/comics/1478100535-20161102after.png
 hovertext: Is this the comic that finally gets me all the sweet sweet hatemail I crave?
-id: naming-trends
-image: 1478100520-20161102.png
+image: https://www.smbc-comics.com/comics/1478100520-20161102.png
 next: cookies
 prev: excuse-me-sir
 title: Naming Trends

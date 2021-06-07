@@ -1,8 +1,7 @@
 ---
-extra_image: 1496673761-20170605after (1).png
+extra_image: https://www.smbc-comics.com/comics/1496673761-20170605after (1).png
 hovertext: I know, I know, it could just be a loop of paper. Let me have my fun.
-id: resume
-image: 1496673747-20170605 (1).png
+image: https://www.smbc-comics.com/comics/1496673747-20170605 (1).png
 next: geek-sleeping
 prev: loss-aversion
 title: Resume

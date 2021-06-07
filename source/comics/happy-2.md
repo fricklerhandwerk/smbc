@@ -1,8 +1,7 @@
 ---
-extra_image: 153805693320180927after.png
+extra_image: https://www.smbc-comics.com/comics/153805693320180927after.png
 hovertext: With this comic I have locked up the Affective Neuroscience audience for good.
-id: happy-2
-image: 1538056839-20180927.png
+image: https://www.smbc-comics.com/comics/1538056839-20180927.png
 next: pedant
 prev: cure
 title: Happy

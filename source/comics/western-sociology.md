@@ -1,8 +1,7 @@
 ---
-extra_image: 1491880555-soonishbonus2after.png
+extra_image: https://www.smbc-comics.com/comics/1491880555-soonishbonus2after.png
 hovertext: Also, for any given view of human nature, some Greek dude probably said it first.
-id: western-sociology
-image: 1491880542-soonishbonus2.png
+image: https://www.smbc-comics.com/comics/1491880542-soonishbonus2.png
 next: context
 prev: smalltalk
 title: Western Sociology

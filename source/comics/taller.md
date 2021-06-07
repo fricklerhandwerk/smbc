@@ -1,8 +1,7 @@
 ---
-extra_image: 161634043020210321after.png
+extra_image: https://www.smbc-comics.com/comics/161634043020210321after.png
 hovertext: Peas, frotteurnity, and taller ants!
-id: taller
-image: 1616340341-20210321.png
+image: https://www.smbc-comics.com/comics/1616340341-20210321.png
 next: ev
 prev: advantage
 title: Taller

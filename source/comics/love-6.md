@@ -1,8 +1,7 @@
 ---
-extra_image: 160009265620200914after.png
+extra_image: https://www.smbc-comics.com/comics/160009265620200914after.png
 hovertext: The good news is comics are also fake.
-id: love-6
-image: 1600092506-20200914.png
+image: https://www.smbc-comics.com/comics/1600092506-20200914.png
 next: phosphine
 prev: antedilution
 title: Love

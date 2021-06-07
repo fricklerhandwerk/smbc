@@ -1,8 +1,7 @@
 ---
-extra_image: 157226677420191028after.png
+extra_image: https://www.smbc-comics.com/comics/157226677420191028after.png
 hovertext: There is no intuitive way to understand doinkspace. We simply have to trust our calculations.
-id: space-2
-image: 1572266631-20191028.png
+image: https://www.smbc-comics.com/comics/1572266631-20191028.png
 next: body-language
 prev: they-walk-among-us
 title: Space

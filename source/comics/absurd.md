@@ -1,8 +1,7 @@
 ---
-extra_image: 154410899220181206after.png
+extra_image: https://www.smbc-comics.com/comics/154410899220181206after.png
 hovertext: The aliens were about to offer immortality, but saw this and changed their minds.
-id: absurd
-image: 1544133976-20181206 (1).png
+image: https://www.smbc-comics.com/comics/1544133976-20181206 (1).png
 next: fuzzy-borders
 prev: the-bruce
 title: Absurd

@@ -1,8 +1,7 @@
 ---
-extra_image: 1500304162-20170717after.png
+extra_image: https://www.smbc-comics.com/comics/1500304162-20170717after.png
 hovertext: Personally, I am a triplist because I think we have mind, body-except-left-earlobe and left earlobe.
-id: monism
-image: 1500304147-20170717.png
+image: https://www.smbc-comics.com/comics/1500304147-20170717.png
 next: taffy
 prev: heavenly
 title: Monism

@@ -1,8 +1,7 @@
 ---
-extra_image: 1486482822-20170207after.png
+extra_image: https://www.smbc-comics.com/comics/1486482822-20170207after.png
 hovertext: You come to a mysterious island where everyone always tells the truth...
-id: math-puzzles
-image: 1486482806-20170207 (1).png
+image: https://www.smbc-comics.com/comics/1486482806-20170207 (1).png
 next: the-best-day-ever
 prev: lastritely
 title: Math Puzzles

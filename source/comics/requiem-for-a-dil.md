@@ -1,8 +1,7 @@
 ---
-extra_image: 1488810963-soonishbonusafter.png
+extra_image: https://www.smbc-comics.com/comics/1488810963-soonishbonusafter.png
 hovertext: It haunts me too. It haunts me too.
-id: requiem-for-a-dil
-image: 1488810946-soonishbonus.png
+image: https://www.smbc-comics.com/comics/1488810946-soonishbonus.png
 next: soonish
 prev: moonshot
 title: Requiem for a Dil

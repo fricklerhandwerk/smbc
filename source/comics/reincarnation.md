@@ -1,8 +1,7 @@
 ---
-extra_image: 159534457620200721after.png
+extra_image: https://www.smbc-comics.com/comics/159534457620200721after.png
 hovertext: Technically, the kids in the comic will outlast everyone who reads it.
-id: reincarnation
-image: 1595344364-20200721.png
+image: https://www.smbc-comics.com/comics/1595344364-20200721.png
 next: bread-and-circuses
 prev: graph
 title: Reincarnation

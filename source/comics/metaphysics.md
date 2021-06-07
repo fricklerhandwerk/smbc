@@ -1,8 +1,7 @@
 ---
-extra_image: 158221187920200220after.png
+extra_image: https://www.smbc-comics.com/comics/158221187920200220after.png
 hovertext: I'm just here for the first panel.
-id: metaphysics
-image: 1582212245-20200220.png
+image: https://www.smbc-comics.com/comics/1582212245-20200220.png
 next: the-denial-of-butts
 prev: radical
 title: Metaphysics

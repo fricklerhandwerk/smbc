@@ -1,8 +1,7 @@
 ---
-extra_image: 1485704380-20170129after.png
+extra_image: https://www.smbc-comics.com/comics/1485704380-20170129after.png
 hovertext: You'll be happy to know that we've proven love to be a lie!
-id: statistical-breakup
-image: 1485705998-20170129.png
+image: https://www.smbc-comics.com/comics/1485705998-20170129.png
 next: people-who-talk
 prev: buy
 title: Statistical Breakup

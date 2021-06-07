@@ -1,8 +1,7 @@
 ---
-extra_image: 156595934720190816after.png
+extra_image: https://www.smbc-comics.com/comics/156595934720190816after.png
 hovertext: I mean, statistically, shouldn't this be the most common outcome?
-id: back
-image: 1565959235-20190816.png
+image: https://www.smbc-comics.com/comics/1565959235-20190816.png
 next: google
 prev: kill
 title: Back

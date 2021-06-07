@@ -1,8 +1,7 @@
 ---
-extra_image: 158038904720200130after.png
+extra_image: https://www.smbc-comics.com/comics/158038904720200130after.png
 hovertext: If you do this, now you have no more excuse.
-id: quote
-image: 1580388960-20200130.png
+image: https://www.smbc-comics.com/comics/1580388960-20200130.png
 next: die
 prev: transporter
 title: Quote

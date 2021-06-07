@@ -1,8 +1,7 @@
 ---
-extra_image: 1509037410-20171026after.png
+extra_image: https://www.smbc-comics.com/comics/1509037410-20171026after.png
 hovertext: People come to SMBC for the subtle humor.
-id: wait
-image: 1509037386-20171026.png
+image: https://www.smbc-comics.com/comics/1509037386-20171026.png
 next: the-psychology-of-heaven
 prev: best-life-advice
 title: Wait

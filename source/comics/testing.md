@@ -1,8 +1,7 @@
 ---
-extra_image: 1442326561-20150915after.png
+extra_image: https://www.smbc-comics.com/comics/1442326561-20150915after.png
 hovertext: The only down-side was the F.
-id: testing
-image: 1442326561-20150915.png
+image: https://www.smbc-comics.com/comics/1442326561-20150915.png
 next: age-of-exploration
 prev: dream-control
 title: Testing

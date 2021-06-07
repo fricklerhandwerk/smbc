@@ -1,8 +1,7 @@
 ---
-extra_image: 161840373120210414after.png
+extra_image: https://www.smbc-comics.com/comics/161840373120210414after.png
 hovertext: In the future, an ultra-mind will produce forms of bigotry never yet dreamt by Man.
-id: agi
-image: 1618403670-20210414.png
+image: https://www.smbc-comics.com/comics/1618403670-20210414.png
 next: vaccine
 prev: definition
 title: AGI

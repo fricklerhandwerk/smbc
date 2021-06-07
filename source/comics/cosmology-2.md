@@ -1,8 +1,7 @@
 ---
-extra_image: 155162707820190303after.png
+extra_image: https://www.smbc-comics.com/comics/155162707820190303after.png
 hovertext: I think Feynman did the path integral stuff AFTER becoming a dad, right?
-id: cosmology-2
-image: 1551627017-20190303.png
+image: https://www.smbc-comics.com/comics/1551627017-20190303.png
 next: scandinavia
 prev: logic
 title: Cosmology

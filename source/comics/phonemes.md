@@ -1,8 +1,7 @@
 ---
-extra_image: 1477235479-20161023after.png
+extra_image: https://www.smbc-comics.com/comics/1477235479-20161023after.png
 hovertext: Time for me to lock in the erotic linguistics audience.
-id: phonemes
-image: 1477235466-20161023.png
+image: https://www.smbc-comics.com/comics/1477235466-20161023.png
 next: dentistry
 prev: terrible-news
 title: Phonemes

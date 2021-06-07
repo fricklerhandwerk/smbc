@@ -1,8 +1,7 @@
 ---
-extra_image: 155395217220190330after.png
+extra_image: https://www.smbc-comics.com/comics/155395217220190330after.png
 hovertext: And now you know why your computer science friend has, let's say, an imperfect grasp on common sense.
-id: undecidable
-image: 1554220955-20190330.png
+image: https://www.smbc-comics.com/comics/1554220955-20190330.png
 next: turmoil
 prev: plan
 title: Undecidable

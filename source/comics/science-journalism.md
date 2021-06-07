@@ -1,8 +1,7 @@
 ---
-extra_image: 1431354950-20150511after.png
+extra_image: https://www.smbc-comics.com/comics/1431354950-20150511after.png
 hovertext: Mmmm. Drive.
-id: science-journalism
-image: 1431354950-20150511.png
+image: https://www.smbc-comics.com/comics/1431354950-20150511.png
 next: humans-are-amazing
 prev: attention-bankruptcy
 title: Science Journalism

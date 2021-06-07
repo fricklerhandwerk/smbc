@@ -1,8 +1,7 @@
 ---
-extra_image: 1495718523-20170525after.png
+extra_image: https://www.smbc-comics.com/comics/1495718523-20170525after.png
 hovertext: '''When Weinersmith died, among his papers were found many takeout menus and a failed novelization of the Voltron cartoon series.'''
-id: final-wishes
-image: 1495718510-20170525.png
+image: https://www.smbc-comics.com/comics/1495718510-20170525.png
 next: dark-magic
 prev: damsel
 title: Final Wishes

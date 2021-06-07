@@ -1,8 +1,7 @@
 ---
-extra_image: 155128015620190227after.png
+extra_image: https://www.smbc-comics.com/comics/155128015620190227after.png
 hovertext: The hairball later is almost more horrifying
-id: laser
-image: 1551279937-20190227.png
+image: https://www.smbc-comics.com/comics/1551279937-20190227.png
 next: speciation
 prev: longitude
 title: Laser

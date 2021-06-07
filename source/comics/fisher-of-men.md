@@ -1,8 +1,7 @@
 ---
-extra_image: 160640803720201126after.png
+extra_image: https://www.smbc-comics.com/comics/160640803720201126after.png
 hovertext: The balloon has two dollars in it.
-id: fisher-of-men
-image: 1606407993-20201126.png
+image: https://www.smbc-comics.com/comics/1606407993-20201126.png
 next: probe-2
 prev: potemkin
 title: Fisher of Men

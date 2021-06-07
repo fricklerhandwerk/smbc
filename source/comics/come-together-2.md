@@ -1,8 +1,7 @@
 ---
-extra_image: 1516139690-soonish28after.png
+extra_image: https://www.smbc-comics.com/comics/1516139690-soonish28after.png
 hovertext: Saying we need to bring together art and science is like telling a longterm couple they need to get married.
-id: come-together-2
-image: 1516139676-soonish28.png
+image: https://www.smbc-comics.com/comics/1516139676-soonish28.png
 next: writing
 prev: scalars
 title: Come Together

@@ -1,8 +1,7 @@
 ---
-extra_image: 156708033720190829after.png
+extra_image: https://www.smbc-comics.com/comics/156708033720190829after.png
 hovertext: My generation's codpiece is yelling at strangers on twitter.
-id: cod
-image: 1567080275-20190829.png
+image: https://www.smbc-comics.com/comics/1567080275-20190829.png
 next: agent
 prev: human
 title: Cod

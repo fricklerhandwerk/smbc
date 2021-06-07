@@ -1,8 +1,7 @@
 ---
-extra_image: 156769723620190905after.png
+extra_image: https://www.smbc-comics.com/comics/156769723620190905after.png
 hovertext: I think there could be a whole field of study based on analyzing what pets are afraid of and assuming it exists in the fossil record.
-id: vrrrr
-image: 1567697161-20190905.png
+image: https://www.smbc-comics.com/comics/1567697161-20190905.png
 next: god-computer
 prev: juliet
 title: VRRRR

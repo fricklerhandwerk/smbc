@@ -1,8 +1,7 @@
 ---
-extra_image: 157763051520191227after.png
+extra_image: https://www.smbc-comics.com/comics/157763051520191227after.png
 hovertext: Engineers are born when you try to substitute duct tape.
-id: commute
-image: 1577462086-20191227.png
+image: https://www.smbc-comics.com/comics/1577462086-20191227.png
 next: hades
 prev: weakness
 title: Commute

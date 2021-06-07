@@ -1,8 +1,7 @@
 ---
-extra_image: 160977797420210104after.png
+extra_image: https://www.smbc-comics.com/comics/160977797420210104after.png
 hovertext: The other option is to get all the combustibles out of your house by using extreme heat and patience.
-id: fire
-image: 1609777920-20210104.png
+image: https://www.smbc-comics.com/comics/1609777920-20210104.png
 next: paw
 prev: captcha-3
 title: Fire

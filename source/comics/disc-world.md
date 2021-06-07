@@ -1,8 +1,7 @@
 ---
-extra_image: 153512308720180824after.png
+extra_image: https://www.smbc-comics.com/comics/153512308720180824after.png
 hovertext: After the flood, the dish soap will form a rainbow.
-id: disc-world
-image: 1535123007-20180824 (1).png
+image: https://www.smbc-comics.com/comics/1535123007-20180824 (1).png
 next: this-town
 prev: captcha
 title: Disc World

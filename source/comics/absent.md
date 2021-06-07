@@ -1,8 +1,7 @@
 ---
-extra_image: 156159094720190626after.png
+extra_image: https://www.smbc-comics.com/comics/156159094720190626after.png
 hovertext: On his deathbed, he admits it was all part of a grand plan.
-id: absent
-image: 1561590886-20190626_final.png
+image: https://www.smbc-comics.com/comics/1561590886-20190626_final.png
 next: sins
 prev: passive
 title: Absent

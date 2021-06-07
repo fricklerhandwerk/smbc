@@ -1,8 +1,7 @@
 ---
-extra_image: 159793156820200820after.png
+extra_image: https://www.smbc-comics.com/comics/159793156820200820after.png
 hovertext: Looking at you, 2020.
-id: forward
-image: 1597931468-20200820.png
+image: https://www.smbc-comics.com/comics/1597931468-20200820.png
 next: funding
 prev: satan
 title: Forward

@@ -1,8 +1,7 @@
 ---
-extra_image: 155412538720190401after.png
+extra_image: https://www.smbc-comics.com/comics/155412538720190401after.png
 hovertext: I wonder if Intelligent Design people believe you might actually find this sort of thing.
-id: todo
-image: 1554125163-20190401.png
+image: https://www.smbc-comics.com/comics/1554125163-20190401.png
 next: admission
 prev: turmoil
 title: TODO

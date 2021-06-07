@@ -1,8 +1,7 @@
 ---
-extra_image: 159154352920200607after.png
+extra_image: https://www.smbc-comics.com/comics/159154352920200607after.png
 hovertext: With apologies to Bulgakov.
-id: cat-2
-image: 1591543493-20200607.png
+image: https://www.smbc-comics.com/comics/1591543493-20200607.png
 next: doctor-2
 prev: therapy
 title: Cat

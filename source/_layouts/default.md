@@ -6,9 +6,9 @@
 
 <main>
   <h1>{{ page.title }}</h1>
-  <img src="{{ site.image }}{{page.image}}">
+  <img src="{{page.image}}">
   <p>{{ page.hovertext }}</p>
-  <img src="{{ site.image }}{{page.extra_image}}">
+  <img src="{{page.extra_image}}">
   {{ content }}
 </main>
 

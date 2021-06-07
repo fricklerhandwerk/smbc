@@ -1,8 +1,7 @@
 ---
-extra_image: 152967429620180622after.png
+extra_image: https://www.smbc-comics.com/comics/152967429620180622after.png
 hovertext: Later, she leaves him for an incredibly attractive guy who financially supports webcomics.
-id: kindness
-image: 1529674089-20180622.png
+image: https://www.smbc-comics.com/comics/1529674089-20180622.png
 next: adverbially
 prev: ark
 title: Kindness

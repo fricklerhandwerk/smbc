@@ -1,8 +1,7 @@
 ---
-extra_image: 159940452820200906after.png
+extra_image: https://www.smbc-comics.com/comics/159940452820200906after.png
 hovertext: And wait till you find out what each peripheral is for.
-id: 'on'
-image: 1599404388-20200906.png
+image: https://www.smbc-comics.com/comics/1599404388-20200906.png
 next: wild
 prev: good-boy
 title: 'On'

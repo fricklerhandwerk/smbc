@@ -1,8 +1,7 @@
 ---
-extra_image: 152950733620180620after.png
+extra_image: https://www.smbc-comics.com/comics/152950733620180620after.png
 hovertext: Later, that evening's sex is completely ruined by the ease of puns pertaining to parking and spots thereof.
-id: discourse
-image: 1529507215-20180620.png
+image: https://www.smbc-comics.com/comics/1529507215-20180620.png
 next: ark
 prev: right
 title: Discourse

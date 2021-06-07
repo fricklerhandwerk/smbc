@@ -1,8 +1,7 @@
 ---
-extra_image: 160701655920201203after.png
+extra_image: https://www.smbc-comics.com/comics/160701655920201203after.png
 hovertext: Suddenly regretting that I didn't make him look like Nate Silver.
-id: tail
-image: 1607016460-20201203.png
+image: https://www.smbc-comics.com/comics/1607016460-20201203.png
 next: feelings
 prev: causal
 title: Tail

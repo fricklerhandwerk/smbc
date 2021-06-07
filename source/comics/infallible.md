@@ -1,8 +1,7 @@
 ---
-extra_image: 155300907820190319after.png
+extra_image: https://www.smbc-comics.com/comics/155300907820190319after.png
 hovertext: Oh so suddenly I'm an expert on whatever I think?
-id: infallible
-image: 1553008991-20190319.png
+image: https://www.smbc-comics.com/comics/1553008991-20190319.png
 next: okay-2
 prev: whoopsie
 title: Infallible

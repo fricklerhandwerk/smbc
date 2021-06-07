@@ -1,8 +1,7 @@
 ---
-extra_image: 154376681420181202after.png
+extra_image: https://www.smbc-comics.com/comics/154376681420181202after.png
 hovertext: Anyone NOT taking this too seriously will be docked 10 Internet Points.
-id: theorem
-image: 1543766769-20181202.png
+image: https://www.smbc-comics.com/comics/1543766769-20181202.png
 next: teleporter
 prev: secrets
 title: Theorem

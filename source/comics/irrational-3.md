@@ -1,8 +1,7 @@
 ---
-extra_image: 158204454120200218after.png
+extra_image: https://www.smbc-comics.com/comics/158204454120200218after.png
 hovertext: This sort of thing happens about once a week.
-id: irrational-3
-image: 1582044448-20200218.png
+image: https://www.smbc-comics.com/comics/1582044448-20200218.png
 next: radical
 prev: astronaut
 title: Irrational

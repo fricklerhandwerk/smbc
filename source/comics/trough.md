@@ -1,8 +1,7 @@
 ---
-extra_image: 160830666220201218after.png
+extra_image: https://www.smbc-comics.com/comics/160830666220201218after.png
 hovertext: Moms will always stab you in the back like that.
-id: trough
-image: 1608306566-20201218.png
+image: https://www.smbc-comics.com/comics/1608306566-20201218.png
 next: creation
 prev: surveillance
 title: Trough

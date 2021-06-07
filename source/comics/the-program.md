@@ -1,8 +1,7 @@
 ---
-extra_image: 153835859020181001after.png
+extra_image: https://www.smbc-comics.com/comics/153835859020181001after.png
 hovertext: '''Dammit, I should''ve had him fix my router before I killed him.'''
-id: the-program
-image: 1538358391-20181001.png
+image: https://www.smbc-comics.com/comics/1538358391-20181001.png
 next: liquid
 prev: gmo
 title: The Program

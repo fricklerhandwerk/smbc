@@ -1,8 +1,7 @@
 ---
-extra_image: 158169857020200214after.png
+extra_image: https://www.smbc-comics.com/comics/158169857020200214after.png
 hovertext: This is the closest to autiobiography I will ever get
-id: kid-time
-image: 1581698512-20200214.png
+image: https://www.smbc-comics.com/comics/1581698512-20200214.png
 next: socializing
 prev: bound
 title: Kid Time

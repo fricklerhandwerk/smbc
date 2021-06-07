@@ -1,8 +1,7 @@
 ---
-extra_image: 1428591826-20150409after.png
+extra_image: https://www.smbc-comics.com/comics/1428591826-20150409after.png
 hovertext: THIS IS THE ONLY WAY
-id: a-time-capsule
-image: 1428591826-20150409.png
+image: https://www.smbc-comics.com/comics/1428591826-20150409.png
 next: lagrangian-wax
 prev: schrodinger39s-garfield
 title: A Time Capsule!

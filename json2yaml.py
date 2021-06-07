@@ -31,15 +31,12 @@ def cleanup(data):
     remove URL prefixes for easier reuse
     """
     comic = len("https://www.smbc-comics.com/comic/")
-    permalink = len("http://smbc-comics.com/comic/")
-    image = len("https://www.smbc-comics.com/comics/")
 
     return {
         'title': data['title'],
-        'image': data['image'][image:],
+        'image': data['image'],
         'hovertext': data['hovertext'],
-        'extra_image': data['extra_image'][image:],
-        'id': data['url'][permalink:],
+        'extra_image': data['extra_image'],
         'prev': data['prev'][comic:] if data.get('prev') else None,
         'next': data['next'][comic:] if data.get('next') else None,
     }
