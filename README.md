@@ -28,7 +28,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 Go through all strips on smbc-comics.com and extract meta data to JSON.
 
 ```sh
-nix-shell --run "python scrape.py"
+nix-shell --run "script/scrape.py"
 ```
 
 ### Download image files
@@ -39,7 +39,7 @@ Set `-P` to the number of parallel downloads desired.
 
 ```sh
 nix-shell -p fd -p xargs
-nix-shell --run "fd '.*' -td comics | xargs -P4 -n1 python download.py"
+nix-shell --run "fd '.*' -td comics | xargs -P4 -n1 script/download.py"
 ```
 
 ### Verify image files
@@ -47,7 +47,7 @@ nix-shell --run "fd '.*' -td comics | xargs -P4 -n1 python download.py"
 This will delete broken images, which may be left over if downloading is cancelled mid-way.
 
 ```sh
-nix-shell --run "python verify.py"
+nix-shell --run "script/verify.py"
 ```
 
 ## Working with Jekyll/GitHub pages
