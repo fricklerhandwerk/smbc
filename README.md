@@ -10,9 +10,15 @@ Using the strips for this purpose with Zach's permission:
 
 ## Why?
 
-You're about to make a point in an argument, and that one SMBC strip you read five years ago totally nailed it? But you can't find it anywhere... Fear not! From now on you can finally search for SMBC content on the web. With luck, the comic in question is already transcribed by volunteers and indexed by search engines.
+You're about to make a point in an argument, and that one SMBC strip you read five years ago totally nailed it? But you can't find it anywhere... Fear not!
+
+From now on you can finally search for SMBC content on the web. With luck, the comic in question is already transcribed by volunteers and indexed by search engines.
+
+Worst case, you can search right here on GitHub.
 
 ## Contributing
+
+Fellow dorkwads, put your wetware to good use!
 
 Your favorite strip does not have a transcription yet? Just add it to the respective markdown file in `source/comics`. Then create a Pull Request to become an internet hero.
 
