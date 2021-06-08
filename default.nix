@@ -6,14 +6,14 @@ let
     fetchTarball "https://github.com/DavHau/mach-nix/archive/refs/tags/3.3.0.tar.gz"
   ) { inherit pkgs; };
   pyEnv = mach-nix.mkPython {
-    requirements = builtins.readFile ./requirements.txt;
+    requirements = builtins.readFile ./script/requirements.txt;
   };
   jekyllEnv = pkgs.bundlerEnv {
     name = "jekyll-github-pages";
     ruby = pkgs.ruby;
-    gemfile = ./Gemfile;
-    lockfile = ./Gemfile.lock;
-    gemset = ./gemset.nix;
+    gemfile = ./script/Gemfile;
+    lockfile = ./script/Gemfile.lock;
+    gemset = ./script/gemset.nix;
   };
   default = pkgs.stdenv.mkDerivation {
     name = "transcribe-smbc";
