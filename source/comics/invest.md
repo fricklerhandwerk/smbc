@@ -7,5 +7,8 @@ prev: paris
 title: Invest
 ---
 
+So, instead of using those resources to attempt a takeover of Australia, invest in index funds. Then, withdraw 4% a year, which can be used to take over, say, small towns in New Zealand, one at a time. Remember, the goal is longterm sustainability.
 
+Graph: How good a superhero movie is / Realism
 
+Remember, you cannot write off a lair unless it is entirely used for villanous purposes.
