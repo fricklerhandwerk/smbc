@@ -7,9 +7,9 @@
 <main>
   <h1>{{ page.title }}</h1>
   <img src="{{page.image}}">
-  <p>{{ page.hovertext }}</p>
   <img src="{{page.extra_image}}">
   {{ content }}
+  <blockquote>{{ page.hovertext }}</blockquote>
 </main>
 
 
