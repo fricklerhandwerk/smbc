@@ -35,7 +35,7 @@ def main():
                 _, header, content = f.read().split('---', maxsplit=2)
             data = yaml.load(header, yaml.SafeLoader)
             # update pointer to next comic if none exists
-            if not data['next']:
+            if not data['next'] and _next:
                 log.info(f"Update: {current} -> {_next}")
                 data['next'] = _next
                 with open(path, 'w') as f:
