@@ -6,3 +6,21 @@ next: accuracy-in-kids39-shows
 prev: other-people
 title: A Simulation
 ---
+
+You ever wonder if the whole world is a simulation?
+
+No. Never. Why?
+
+There are philosophical arguments. Like... If simulations are possible, it's likely we're in one, since simulated realities outnumber real realities.
+
+But that always felt flawed to me. People don't make complete universes for no reason. If you're in a simulation, you should be able to spot a reason for it to exist.
+
+So far, nothing. So far, just -
+
+Sally do you love me?
+
+Ha, what? Oh, you're serious. I mean, I think you're nice, but I -
+
+Delete. Reload.
+
+This time, humans evolve less impulse control!
