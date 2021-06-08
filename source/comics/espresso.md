@@ -6,3 +6,31 @@ next: fish-don39t-feel-pain
 prev: dear-god-2
 title: Espresso
 ---
+
+Just milk
+
+1:c² -- "Relativisto"
+
+1:3 -- "Latte"
+
+1:2 -- "Cappuccino"
+
+(espresso + milk) / espresso = espresso / milk -- "Phicetto"
+
+1:1 -- "Antoccino"
+
+i:1 -- "Imaginarati"
+
+2:1 -- "Macchiato"
+
+3:1 -- "Antilatte"
+
+π:1 -- "Irratiognito"
+
+6.022·10²³:1 -- "Avogadro"
+
+Just espresso
+
+lim milk -> 0 espresso / milk -- "Infiniccino"
+
+I'm sorry they're not all ratios but I couldn't help it!
