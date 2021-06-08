@@ -33,13 +33,12 @@ nix-shell --run "script/scrape.py"
 
 ### Download image files
 
-Using locally available meta data, download image files.
-
-Set `-P` to the number of parallel downloads desired.
+Using locally available meta data, download image files. This will take a lot
+of time initially, as it runs sequentially. Check out an earlier revision for
+parallel downloads.
 
 ```sh
-nix-shell -p fd -p xargs
-nix-shell --run "fd \.md source/comics | xargs -P4 -n1 script/download.py"
+nix-shell --run "script/download.py"
 ```
 
 ### Verify image files

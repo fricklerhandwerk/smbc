@@ -18,17 +18,18 @@ def main():
     download images based on local metadata
     """
 
-    p = Path(sys.argv[1])
-    with open(p, 'r') as f:
-        _, header, content = f.read().split('---', maxsplit=2)
-    data = yaml.load(header, yaml.SafeLoader)
-    fetch(p, data['image'])
-    fetch(p, data['extra_image'])
+    for p in Path('source/comics').iterdir():
+        if p.suffix == '.md':
+            with open(p, 'r') as f:
+                _, header, content = f.read().split('---', maxsplit=2)
+            data = yaml.load(header, yaml.SafeLoader)
+            path = p.with_suffix('')
+            path.mkdir(parents=True, exist_ok=True)
+            fetch(path, data['image'])
+            fetch(path, data['extra_image'])
 
 
-def fetch(p, url):
-    path = p.with_suffix('')
-    path.mkdir(parents=True, exist_ok=True)
+def fetch(path, url):
     target = path/scrape.basename(url)
     if not target.exists():
         urlretrieve(requote_uri(url), target)
