@@ -6,3 +6,13 @@ next: congrats
 prev: accuracy-in-kids39-shows
 title: Parenting
 ---
+
+First year parenting
+
+I can't let my daughter have a poofy pink dress! She'll think she can't be an engineer!
+
+Second year parenting
+
+Oh my god. You can fit an entire ratchet set in this poofy pink dress.
+
+Where the hell's my ratchet set?
