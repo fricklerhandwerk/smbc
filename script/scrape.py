@@ -20,28 +20,38 @@ def main():
     scrape comic metadata
     """
 
-    comic = scrape("https://www.smbc-comics.com")['comic']
+    # start scraping at home page, which shows the latest comic
+    values = scrape("https://www.smbc-comics.com")
+    current = values['comic']
+    _next = None
 
-    while comic:
-        path = Path(f'source/comics/{comic}.md')
+    while current:
+        path = Path(f'source/comics/{current}.md')
 
         if path.exists():
-            log.info(f"Skipping {comic}")
+            log.debug(f"File exists: {current}")
             with open(path, 'r') as f:
                 # split out YAML header
                 _, header, content = f.read().split('---', maxsplit=2)
-                comic = yaml.load(header, yaml.SafeLoader)['prev']
+            data = yaml.load(header, yaml.SafeLoader)
+            # update pointer to next comic if none exists
+            if not data['next']:
+                log.info(f"Update: {current} -> {_next}")
+                data['next'] = _next
+                with open(path, 'w') as f:
+                    f.write(markdown(content, data))
+            _next = current
+            current = data['prev']
             continue
 
-        values = scrape(base + comic)
+        values = scrape(base + current)
 
+        _next = values['comic']
+        del values['comic']
         with open(path, 'w') as f:
-            del values['comic']
-            log.info(pformat(values))
-            # `width=` sets maximum line length
-            # https://stackoverflow.com/questions/18514205/how-to-prevent-yaml-to-dump-long-line-without-new-line/18526119#18526119
-            f.write(markdown(yaml.dump(values, width=float("inf"))))
-        comic = values['prev']
+            log.info("New: %s\n%s", _next, pformat(values))
+            f.write(markdown("", values))
+        current = values['prev']
 
 
 def scrape(url):
@@ -110,11 +120,16 @@ def basename(url):
     return os.path.basename(urlparse(url).path).strip()
 
 
-def markdown(data):
+def markdown(content, data=None):
     """
-    write markdown YAML header
+    write markdown file contents with optional YAML header
     """
-    return f"---\n{data}---\n"
+    if data:
+        # `width=` sets maximum line length
+        # https://stackoverflow.com/questions/18514205/how-to-prevent-yaml-to-dump-long-line-without-new-line/18526119#18526119
+        header = yaml.dump(data, width=float("inf"))
+        return f"---\n{header}---\n\n{content}"
+    return content
 
 
 if __name__ == "__main__":
