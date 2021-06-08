@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-import json
 from pathlib import Path
 
 import PIL
 import scrape
+import yaml
 from PIL import Image
 
 
@@ -13,17 +13,19 @@ def main():
     verify integrity of images
     """
 
-    for p in Path('comics').iterdir():
-        if p.is_dir():
-            with open(p/'data.json', 'r') as f:
-                data = json.load(f)
-            verify(p, data['image'])
-            verify(p, data['extra_image'])
+    for p in Path('source/comics').iterdir():
+        if p.suffix == '.md':
+            with open(p, 'r') as f:
+                _, header, content = f.read().split('---', maxsplit=2)
+            data = yaml.load(header, yaml.SafeLoader)
+            path = p.with_suffix('')
+            verify(path, data['image'])
+            verify(path, data['extra_image'])
 
 
-def verify(p, url):
-    target = p/scrape.basename(url)
-    if target.exists():
+def verify(path, url):
+    target = path/scrape.basename(url)
+    if target.exists() and target.is_file():
         try:
             im = Image.open(target)
             im.verify()
