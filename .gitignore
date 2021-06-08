@@ -1,2 +1,5 @@
 .jekyll-metadata
 _site
+*.png
+*.jpg
+*.gif
