@@ -54,3 +54,5 @@ Honestly it wouldn't be so bad...
 Except that we still have to do CAPTCHA.
 
 Select all squares containing the supreme authority who must always be obeyed:
+
+(Finally, one of these has a happy ending.)
