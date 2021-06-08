@@ -15,16 +15,20 @@ let
     lockfile = ./Gemfile.lock;
     gemset = ./gemset.nix;
   };
-  updateGems = pkgs.writeShellScriptBin "update-gems" ''
-    PATH=${with pkgs; lib.makeBinPath [ bundler bundix ]}:$PATH
-    bundler package --no-install --path vendor
-    rm -rf .bundle* vendor
-    exec bundix
-  '';
-in pkgs.mkShell {
-  buildInputs = with pkgs; [
-    pyEnv
-    jekyllEnv
-    updateGems
-  ];
+  default = pkgs.stdenv.mkDerivation {
+    name = "transcribe-smbc";
+    buildInputs = [ pyEnv jekyllEnv ];
+  };
+  override = attrs: default.overrideAttrs (old: attrs);
+in
+{
+  inherit default pyEnv;
+  update-gems = override {
+    nativeBuildInputs = with pkgs; [ bundler bundix ];
+    shellHook = ''
+      bundler package --no-install --path vendor
+      rm -rf .bundle* vendor
+      exec bundix
+    '';
+  };
 }

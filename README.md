@@ -61,5 +61,5 @@ nix-shell --run "jekyll serve --incremental"
 ### Update dependencies
 
 ```sh
-nix-shell --run update-gems
+nix-shell -A update-gems
 ```
