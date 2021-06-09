@@ -6,3 +6,13 @@ next: adverbially
 prev: ark
 title: Kindness
 ---
+
+I know we're just getting to know each other, but let me lay my cards on the table. I'm not interested in genious or a beautiful body or status or whatever.
+
+My whole life I thought I was. But now... all I really want is kindness. I want the kindest man I can throw my arms around.
+
+I paid for the licensed version of WinRAR.
+
+Moments later...
+
+You have to pay for your own license, okay?
