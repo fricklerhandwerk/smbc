@@ -7,3 +7,12 @@ prev: after
 title: Sad
 ---
 
+What's wrong man?
+
+I keep wasting my life. I keep wasting my life and I don't know how to change.
+
+That's because you don't know how to… reflect.
+
+Not right now, Dave.
+
+I'm gonna turn into bats for a while. Don't wait up for me.
