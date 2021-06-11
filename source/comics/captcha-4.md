@@ -7,8 +7,6 @@ prev: invest
 title: Captcha
 ---
 
-
-
 More and more websites required users to identify everyday objects in order to gain access.
 
 Select all crosswalks:

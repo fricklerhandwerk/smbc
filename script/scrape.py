@@ -128,7 +128,7 @@ def markdown(content, data=None):
         # `width=` sets maximum line length
         # https://stackoverflow.com/questions/18514205/how-to-prevent-yaml-to-dump-long-line-without-new-line/18526119#18526119
         header = yaml.dump(data, width=float("inf"))
-        return f"---\n{header}---\n\n{content}"
+        return f"---\n{header}---\n\n{content.strip()}"
     return content
 
 

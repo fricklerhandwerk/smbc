@@ -7,4 +7,3 @@ prev: lapdog
 title: Accident
 ---
 
-
