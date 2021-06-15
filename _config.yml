@@ -13,6 +13,7 @@ collections:
   comics:
     output: true
     layout: default
+    permalink: /:name
 exclude:
   - script
   - default.nix
