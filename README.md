@@ -22,4 +22,4 @@ Fellow dorkwads, put your wetware to good use!
 
 Your favorite strip does not have a transcription yet? Just add it to the respective markdown file in `_comics`. Then create a Pull Request to become an internet hero.
 
-> Tip: Use GitHub's `Go to file` button to find the comic, enter the last part of its original URL.
+> Tip: Use GitHub's [`Go to file`](https://github.com/fricklerhandwerk/smbc/find/master) button to find the comic, enter the last part of its original URL.

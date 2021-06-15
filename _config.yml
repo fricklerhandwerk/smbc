@@ -1,10 +1,14 @@
-image: https://www.smbc-comics.com/comics/
+github-user: fricklerhandwerk
+github-repo: smbc
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
+  - scope:
+      type: pages
+    values:
+      layout: page
 collections:
   comics:
     output: true
