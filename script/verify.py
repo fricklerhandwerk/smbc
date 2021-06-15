@@ -13,7 +13,7 @@ def main():
     verify integrity of images
     """
 
-    for p in Path('source/comics').iterdir():
+    for p in Path('_comics').iterdir():
         if p.suffix == '.md':
             with open(p, 'r') as f:
                 _, header, content = f.read().split('---', maxsplit=2)

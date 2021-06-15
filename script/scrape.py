@@ -26,7 +26,7 @@ def main():
     _next = None
 
     while current:
-        path = Path(f'source/comics/{current}.md')
+        path = Path(f'_comics/{current}.md')
 
         if path.exists():
             log.debug(f"File exists: {current}")

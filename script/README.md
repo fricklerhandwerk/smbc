@@ -45,5 +45,5 @@ nix-shell --run "jekyll serve"
 ### Update dependencies
 
 ```sh
-nix-shell -A update-gems
+nix-shell --run update-gems
 ```

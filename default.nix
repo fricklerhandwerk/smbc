@@ -11,24 +11,17 @@ let
   jekyllEnv = pkgs.bundlerEnv {
     name = "jekyll-github-pages";
     ruby = pkgs.ruby;
-    gemfile = ./script/Gemfile;
+    gemfile = ./Gemfile;
     lockfile = ./script/Gemfile.lock;
     gemset = ./script/gemset.nix;
   };
-  default = pkgs.stdenv.mkDerivation {
-    name = "transcribe-smbc";
-    buildInputs = [ pyEnv jekyllEnv ];
-  };
-  override = attrs: default.overrideAttrs (old: attrs);
-in
-{
-  inherit default pyEnv;
-  update-gems = override {
-    nativeBuildInputs = with pkgs; [ bundler bundix ];
-    shellHook = ''
-      bundler package --no-install --path vendor
-      rm -rf .bundle* vendor
-      exec bundix
-    '';
-  };
+  update-gems = pkgs.writeScriptBin "update-gems" ''
+    export PATH=${with pkgs; lib.makeBinPath [ bundler bundix coreutils ]}
+    bundler package --no-install --path vendor
+    rm -rf .bundle* vendor
+    exec bundix --gemset=script/gemset.nix --lockfile=script/Gemfile.lock
+  '';
+in pkgs.stdenv.mkDerivation {
+  name = "transcribe-smbc";
+  buildInputs = [ pyEnv jekyllEnv update-gems ];
 }
