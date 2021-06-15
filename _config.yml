@@ -9,3 +9,6 @@ collections:
   comics:
     output: true
     layout: default
+exclude:
+  - script
+  - default.nix
