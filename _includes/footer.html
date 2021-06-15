@@ -1,0 +1,8 @@
+<footer>
+{%- assign content = content | strip_newlines -%}
+{%- if content == empty -%}
+  <p>No transcript? <a href="https://github.com/{{ site.github-user }}/{{ site.github-repo }}/edit/master/{{ page.path }}">Edit this page on GitHub</a> and earn 10 Internet points!</p>
+{%- else -%}
+  <p>Something is <strong>wrong</strong> here? <a href="https://github.com/{{ site.github-user }}/{{ site.github-repo }}/edit/master/{{ page.path }}">Fix it on GitHub</a> to make it the best kind of correct!</p>
+{%- endif -%}
+</footer>
