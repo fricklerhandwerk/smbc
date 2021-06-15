@@ -14,7 +14,7 @@ You're about to make a point in an argument, and that one SMBC strip you read fi
 
 From now on you can finally search for SMBC content on the web. With luck, the comic in question is already transcribed by volunteers and indexed by search engines.
 
-Worst case, you can search right here on GitHub.
+Worst case, you can search [right here on GitHub](https://github.com/fricklerhandwerk/smbc).
 
 ## Contributing
 
