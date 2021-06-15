@@ -5,8 +5,15 @@
 {%- include header.md -%}
 
 <main>
-  <h1>{{ page.title }}</h1>
-  <p>View original on <a href="https://www.smbc-comics.com/comic{{ page.id }}">www.smbc-comics.com</a></p>
+  <header>
+    <nav>
+      <p>{% if page.prev_comic %}<a href="{{ page.prev_comic }}">Previous</a>{% endif %}</p>
+      <p>View original on <a href="https://www.smbc-comics.com/comic{{ page.id }}">www.smbc-comics.com</a></p>
+      <p>{% if page.next_comic %}<a href="{{ page.next_comic }}">Next</a>{% endif %}</p>
+    </nav>
+    <h1>{{ page.title }}</h1>
+  </header>
+
   <img src="{{page.image}}">
   <img src="{{page.extra_image}}">
   {{ content }}

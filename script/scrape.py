@@ -35,13 +35,13 @@ def main():
                 _, header, content = f.read().split('---', maxsplit=2)
             data = yaml.load(header, yaml.SafeLoader)
             # update pointer to next comic if none exists
-            if not data['next'] and _next:
+            if not data['next_comic'] and _next:
                 log.info(f"Update: {current} -> {_next}")
                 data['next'] = _next
                 with open(path, 'w') as f:
                     f.write(markdown(content, data))
             _next = current
-            current = data['prev']
+            current = data['prev_comic']
             continue
 
         values = scrape(base + current)
@@ -51,7 +51,7 @@ def main():
         with open(path, 'w') as f:
             log.info("New: %s\n%s", _next, pformat(values))
             f.write(markdown("", values))
-        current = values['prev']
+        current = values['prev_comic']
 
 
 def scrape(url):
@@ -67,8 +67,8 @@ def get_values(page):
         'hovertext': hovertext(page),
         'extra_image': extra_comic_url(page),
         'comic': permalink(page),
-        'prev': prev_comic(page),
-        'next': next_comic(page),
+        'prev_comic': prev_comic(page),
+        'next_comic': next_comic(page),
     }
 
 

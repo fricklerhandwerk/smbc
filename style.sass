@@ -7,6 +7,10 @@ body
   font-family: Ubuntu, sans-serif
   max-width: 80ch
   background: #d4dff1
+  > header
+    color: white
+    background: #516a92
+    padding: 1rem
 
 h1
   margin-top: 0rem
@@ -19,17 +23,22 @@ img
 main
   background: white
   padding: 2rem
+  header
+    text-align: center
+  nav
+    display: flex
+    justify-content: space-between
+    p
+      margin: 1rem
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-right: 0
 
 blockquote
   background: #d4dff1
   margin: 1rem 0
   padding: 1rem
-
-header
-  color: white
-  background: #516a92
-  padding: 1rem
-
 
 footer
   background: #f89b69
