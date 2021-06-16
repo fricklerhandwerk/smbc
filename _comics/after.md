@@ -7,3 +7,8 @@ prev_comic: captcha-4
 title: After
 ---
 
+Yeah, so how about we nuclear arma-get-it-***on***.
+
+This was not the only reason humanity died out, but it was the last reason.
+
+Everyone is dead.
