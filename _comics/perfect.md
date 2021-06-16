@@ -7,3 +7,8 @@ prev_comic: engineering
 title: Perfect
 ---
 
+Hey girl, if I told you you had a beautiful body, would you resent me for using the past perfect tense, denoting that the act of possessing a beautiful body was completed prior to this encounter?
+
+Sadly, I later will have had no sex-having.
+
+What a pluperfect body.
