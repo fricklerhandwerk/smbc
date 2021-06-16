@@ -7,3 +7,8 @@ prev_comic: sad
 title: Right
 ---
 
+The customer is always right? Ha! Okay, well I guess they can just determine whether any program will halt when given a particular input! Hey, ask them if every even whole number bigger than two is the sum of two prime numbers! ***Stupid!***
+
+Computer scientists should not be allowed in customer service.
+
+Also customers keep saying "OR" when they mean "XOR". Stupid!
