@@ -15,7 +15,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 Go through all strips on [smbc-comics.com](https://www.smbc-comics.com) and extract meta data to YAML headers of markdown files.
 
 ```sh
-nix-shell --run "script/scrape.py"
+nix-shell --run scrape
 ```
 
 ### Download image files
@@ -23,7 +23,7 @@ nix-shell --run "script/scrape.py"
 Using locally available meta data, download image files. This will take a lot of time initially, as it runs sequentially. Check out an earlier revision for parallel downloads.
 
 ```sh
-nix-shell --run "script/download.py"
+nix-shell --run download
 ```
 
 ### Verify image files
@@ -31,7 +31,7 @@ nix-shell --run "script/download.py"
 This will delete broken images, which may be left over if downloading is cancelled mid-way.
 
 ```sh
-nix-shell --run "script/verify.py"
+nix-shell --run verify
 ```
 
 ## Working with Jekyll/GitHub pages
