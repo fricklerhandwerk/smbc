@@ -37,7 +37,7 @@ def main():
             # update pointer to next comic if none exists
             if not data['next_comic'] and _next:
                 log.info(f"Update: {current} -> {_next}")
-                data['next'] = _next
+                data['next_comic'] = _next
                 with open(path, 'w') as f:
                     f.write(markdown(content, data))
             _next = current
