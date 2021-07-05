@@ -31,15 +31,13 @@ def main():
         if path.exists():
             log.debug(f"File exists: {current}")
             with open(path, 'r') as f:
-                # split out YAML header
-                _, header, content = f.read().split('---', maxsplit=2)
-            data = yaml.load(header, yaml.SafeLoader)
+                content, data = from_markdown(f.read())
             # update pointer to next comic if none exists
             if not data['next_comic'] and _next:
                 log.info(f"Update: {current} -> {_next}")
                 data['next_comic'] = _next
                 with open(path, 'w') as f:
-                    f.write(markdown(content, data))
+                    f.write(to_markdown(content, data))
             _next = current
             current = data['prev_comic']
             continue
@@ -50,7 +48,7 @@ def main():
         del values['comic']
         with open(path, 'w') as f:
             log.info("New: %s\n%s", _next, pformat(values))
-            f.write(markdown("", values))
+            f.write(to_markdown("", values))
         current = values['prev_comic']
 
 
@@ -120,7 +118,13 @@ def basename(url):
     return os.path.basename(urlparse(url).path).strip()
 
 
-def markdown(content, data=None):
+def from_markdown(text):
+    _, header, content = text.split('---', maxsplit=2)
+    data = yaml.load(header, yaml.SafeLoader)
+    return content, data
+
+
+def to_markdown(content, data=None):
     """
     write markdown file contents with optional YAML header
     """

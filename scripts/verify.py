@@ -2,9 +2,7 @@
 
 from pathlib import Path
 
-import PIL
 import scrape
-import yaml
 from PIL import Image
 
 
@@ -16,8 +14,7 @@ def main():
     for p in Path('_comics').iterdir():
         if p.suffix == '.md':
             with open(p, 'r') as f:
-                _, header, content = f.read().split('---', maxsplit=2)
-            data = yaml.load(header, yaml.SafeLoader)
+                content, data = scrape.from_markdown(f.read())
             path = p.with_suffix('')
             verify(path, data['image'])
             verify(path, data['extra_image'])
