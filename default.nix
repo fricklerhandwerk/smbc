@@ -1,7 +1,9 @@
 let
   pkgs = import (
-    fetchTarball "https://github.com/NixOS/nixpkgs/archive/refs/heads/release-20.09.tar.gz"
-  ) {};
+    fetchTarball {
+      url = "https://github.com/NixOS/nixpkgs/archive/59b8d9cf24e9fcf10341a0923c9bdca088dca8c8.tar.gz";
+      sha256 = "08f38v4b2kcxnbapdwrb54bglka92cxj9qlnqlk5px206jyq9v4c";
+    }) {};
   mach-nix = import (
     fetchTarball "https://github.com/DavHau/mach-nix/archive/refs/tags/3.3.0.tar.gz"
   ) { inherit pkgs; };
