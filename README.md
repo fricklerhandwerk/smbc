@@ -2,6 +2,8 @@
 
 This is an effort to transcribe [Saturday Morning Breakfast Cereal comics](https://www.smbc-comics.com) to make them searchable.
 
+Read the latest strip [here](fermi-paradox.html).
+
 Using the strips for this purpose with Zach's permission:
 
 > Feel free! Sounds cool.

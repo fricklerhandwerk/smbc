@@ -16,7 +16,10 @@ let
     git checkout master
     git pull origin master
     scrape
+    # update link to latest comic
+    sed -i "s/\(\[here\]\)(.*)/\1($(latest).html)/" README.md
     git add _comics
+    git add README.md
     git commit -m "automatic update"
     git push origin master
     verify
