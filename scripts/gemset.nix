@@ -1,25 +1,25 @@
 {
   activesupport = {
     dependencies = ["concurrent-ruby" "i18n" "minitest" "tzinfo" "zeitwerk"];
-    groups = ["default"];
+    groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0c709s4ypa5zhfypapfxr27wvj16dyjx21c56kky24isdmz1032z";
+      sha256 = "0ppjnv9bbdvrnmlikaqsm6zaav3gv5s2qqgs4a5sr8yqb344zhfx";
       type = "gem";
     };
-    version = "6.0.3.7";
+    version = "6.0.4";
   };
   addressable = {
     dependencies = ["public_suffix"];
-    groups = ["default"];
+    groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1fvchp2rhp2rmigx7qglf69xvjqvzq7x0g49naliw29r2bz656sy";
+      sha256 = "022r3m9wdxljpbya69y2i3h9g3dhhfaqzidf95m6qjzms792jvgp";
       type = "gem";
     };
-    version = "2.7.0";
+    version = "2.8.0";
   };
   coffee-script = {
     dependencies = ["coffee-script-source" "execjs"];
@@ -85,14 +85,14 @@
   };
   dnsruby = {
     dependencies = ["simpleidn"];
-    groups = ["default"];
+    groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0q7k7wn8flcdr0kzgknq40cjddd0zn3g3n4gwwwdz0kq30pinzxx";
+      sha256 = "1pbhj4xmj4262in6c1nwl5ssw0qypg8ysjrrkwn2akkzbxzy9rfq";
       type = "gem";
     };
-    version = "1.61.5";
+    version = "1.61.7";
   };
   em-websocket = {
     dependencies = ["eventmachine" "http_parser.rb"];
@@ -137,15 +137,15 @@
     version = "2.8.1";
   };
   faraday = {
-    dependencies = ["faraday-em_http" "faraday-em_synchrony" "faraday-excon" "faraday-net_http" "faraday-net_http_persistent" "multipart-post" "ruby2_keywords"];
-    groups = ["default"];
+    dependencies = ["faraday-em_http" "faraday-em_synchrony" "faraday-excon" "faraday-httpclient" "faraday-net_http" "faraday-net_http_persistent" "faraday-patron" "multipart-post" "ruby2_keywords"];
+    groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "07mhk70gv453pg38md346470hknyhipdqppnplq706ll3k3lzb7v";
+      sha256 = "0gwbii45plm9bljk22bwzhzxrc5xid8qx24f54vrm74q3zaz00ah";
       type = "gem";
     };
-    version = "1.4.2";
+    version = "1.5.0";
   };
   faraday-em_http = {
     groups = ["default"];
@@ -177,6 +177,16 @@
     };
     version = "1.1.0";
   };
+  faraday-httpclient = {
+    groups = ["default" "jekyll_plugins"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0fyk0jd3ks7fdn8nv3spnwjpzx2lmxmg2gh4inz3by1zjzqg33sc";
+      type = "gem";
+    };
+    version = "1.0.1";
+  };
   faraday-net_http = {
     groups = ["default"];
     platforms = [];
@@ -197,15 +207,25 @@
     };
     version = "1.1.0";
   };
-  ffi = {
-    groups = ["default"];
+  faraday-patron = {
+    groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "15nn2v70rql15vb0pm9cg0f3xsaslwjkv6xgz0k5jh48idmfw9fi";
+      sha256 = "19wgsgfq0xkski1g7m96snv39la3zxz6x7nbdgiwhg5v82rxfb6w";
       type = "gem";
     };
-    version = "1.15.1";
+    version = "1.0.0";
+  };
+  ffi = {
+    groups = ["default" "jekyll_plugins"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1wgvaclp4h9y8zkrgz8p2hqkrgr4j7kz0366mik0970w532cbmcq";
+      type = "gem";
+    };
+    version = "1.15.3";
   };
   forwardable-extended = {
     groups = ["default"];
@@ -959,14 +979,14 @@
     version = "0.0.4";
   };
   rubyzip = {
-    groups = ["default"];
+    groups = ["default" "jekyll_plugins"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0590m2pr9i209pp5z4mx0nb1961ishdiqb28995hw1nln1d1b5ji";
+      sha256 = "0grps9197qyxakbpw02pda59v45lfgbgiyw48i0mq9f2bn9y6mrz";
       type = "gem";
     };
-    version = "2.3.0";
+    version = "2.3.2";
   };
   safe_yaml = {
     groups = ["default"];

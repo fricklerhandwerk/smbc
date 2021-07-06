@@ -1,3 +1,4 @@
+url: "https://fricklerhandwerk.github.io"
 github-user: fricklerhandwerk
 github-repo: smbc
 defaults:
@@ -17,3 +18,5 @@ collections:
 exclude:
   - script
   - default.nix
+plugins:
+  - jekyll-sitemap
