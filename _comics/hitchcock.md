@@ -7,3 +7,12 @@ prev_comic: fed
 title: Hitchcock
 ---
 
+I mean, I don't really want it, but… Did you use a flying drone camera… At sunset… And with a Hitchcock zoom at the end?
+
+Me and my team, yeah. The only digital effects are the lens flares.
+
+It was the greatest dick pic Sally had ever seen.
+
+Put on some pants.
+
+No.
