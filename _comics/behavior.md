@@ -7,3 +7,12 @@ prev_comic: psyops
 title: Behavior
 ---
 
+Behavioral Genetics isn't a real science. The human brain is too plastic!
+
+The true science of mind is Empirical Psychology. I reject the notion that a child's future self can be pre-determined by a string of nucleotides!
+
+Precisely. We must return to the correct paradigm of blaming mothers for all psychological disorders.
+
+**Why are they always too affectionate or too cold?!**
+
+Actually, my mom was some chickenwire wrapped in terrycloth
