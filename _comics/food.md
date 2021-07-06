@@ -7,3 +7,14 @@ prev_comic: behavior
 title: Food
 ---
 
+How I react to a new delicious food
+
+Quantity eaten daily
+
+Quantity remaining in house
+
+Time
+
+Throw out your five pounds of szechuan chili oil!
+
+It's part of our marriage now.
