@@ -7,3 +7,16 @@ prev_comic: stash
 title: Run
 ---
 
+Dad, I want to ask this girl out bu twhat if she doesn't like me?
+
+Then run.
+
+**RUN!**
+
+My god that'd be embarrassing. A person who doesn't like **you** in particular. Not just your music taste or hair or whatever, your whole being is rejected outright
+
+This sort of thing is why mom left you, isn't it?
+
+Can't leave me if I don't answer my phone.
+
+2 trillion unread voicemail (approximate)
