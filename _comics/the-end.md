@@ -7,3 +7,20 @@ prev_comic: eden
 title: The End
 ---
 
+Sally, you're… You're bathed with unearthly light.
+
+I reached the end of my todo list.
+
+But that's impossible!
+
+There is no more to do now. All tasks are complete. All is one.
+
+I know ascend into a world of pure thought. A world of-
+
+NEW MESSAGE
+
+Due by **Friday?** And I'm finding out on **Wednesday afternoon?**
+
+Phew.
+
+Was that real? Did I only imagine it?
