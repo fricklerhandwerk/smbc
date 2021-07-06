@@ -10,8 +10,8 @@ let
   push-update = pkgs.writeShellScriptBin "push-update" ''
     # update comics archive. run from the root of this repository with `git`
     # credentials in place.
-    export PATH=${with pkgs; lib.makeBinPath [ scripts git openssh coreutils ]}:$PATH
-    set -e
+    export PATH=${with pkgs; lib.makeBinPath [ scripts coreutils git gnused openssh ]}:$PATH
+    set -ex
     today=$(date --rfc-3339 date)
     git checkout master
     git pull origin master
