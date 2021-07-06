@@ -7,3 +7,20 @@ prev_comic: the-end
 title: Simulation
 ---
 
+Do you think we live in a simulated ocean?
+
+Huh?
+
+Think about it. It **seems** like we're in the ocean, but we know we can segment off parts of the ocean and raise beings in them. Now, if segmentation is possible, it follows that most of what appears to be ocean is not.
+
+Okay, but even if that's true, what would it imply about life?
+
+That we're special. That we are part of some great program.
+
+That we matter!
+
+Joe's Fish Shack
+
+fresh Tilapia! 9.99
+
+Ooh, food flakes!
