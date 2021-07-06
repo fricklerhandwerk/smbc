@@ -7,3 +7,12 @@ prev_comic: just-sayin
 title: Unfinished Business
 ---
 
+What the… I'm dead, but still here…
+
+I must have unfinished business… What was I doing when I died?
+
+Remaining student loans: $47,822.79
+
+*Oh come on!*
+
+Screw this. I'm just gonna go to hell.
