@@ -7,3 +7,10 @@ prev_comic: cute
 title: First Date
 ---
 
+How **dare you?!** This is a first date. A first date! Do you think I have no self respect?
+
+Earlier…
+
+Will you agree to unblock my cookies?
+
+Can I track your location to recommend products and services?
