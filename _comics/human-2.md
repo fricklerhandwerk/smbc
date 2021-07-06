@@ -7,3 +7,12 @@ prev_comic: meaning-3
 title: Human
 ---
 
+Prove you are human: How many dots are on the board?
+
+One… uh… four… **AAAAAH! AAAAAAAAAH!**
+
+Welcome! Thank you for screaming.
+
+(This is based on an illusion discovered by Jacques Ninio)
+
+It's Facebook! I was going to be screaming anyway!
