@@ -7,3 +7,12 @@ prev_comic: hitchcock
 title: Psyops
 ---
 
+Ha! Your alien weapons are no match for human ingenuity, Gorblax!
+
+Very well. I didn't want it to come to this, but I'll have to declare the one fact that will psychologically devastate humanity forever.
+
+Impossible! You could never understand our psyches well enough to do that!
+
+All affection from dogs is actually sarcasm.
+
+Christ.
