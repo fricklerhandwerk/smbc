@@ -7,3 +7,28 @@ prev_comic: space-5
 title: Eden
 ---
 
+Adam and Eve! Are you eating from the tree of knowledge?!
+
+Uh…
+
+Hoo boy.
+
+Well, at least humanity got knowledge before we left.
+
+Yeah.
+
+Yeah.
+
+Say, did you eat from any other forbidden plants?
+
+A few, you?
+
+Just a few.
+
+Shrub of Jealousy
+
+Vine of Avarice
+
+Corn of just kind of being a douche for no reason
+
+Wish I hadn't eaten all those Pinecones of Bastardry.
