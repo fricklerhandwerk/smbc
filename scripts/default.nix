@@ -17,7 +17,7 @@ let
     git pull origin master
     scrape
     # update link to latest comic
-    sed -i "s/\(\[here\]\)(.*)/\1($(latest).html)/" README.md
+    sed -i "s/\(\[Read the latest strip here\.\]\)(.*)/\1($(latest).html)/" README.md
     git add _comics
     git add README.md
     git commit -m "automatic update"
