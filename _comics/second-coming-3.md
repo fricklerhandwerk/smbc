@@ -7,3 +7,16 @@ prev_comic: work-hard
 title: Second Coming
 ---
 
+Dear Jesus, when will you return?
+
+When it is on earth as it is in heaven.
+
+When's that?
+
+About 30 years.
+
+Really? Why then?
+
+I like the thermostat wayyyy up.
+
+You think I showed up in the Middle East for **fun**?
