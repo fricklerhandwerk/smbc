@@ -7,3 +7,10 @@ prev_comic: stories
 title: Names
 ---
 
+I'm Alexandra Restauranteur!
+
+I'm Vijay Soybean-Options-Trader.
+
+I'm Jason Improved-Lube-Patent-Royalties-Receiver.
+
+What if people were still named for their parent's job?
