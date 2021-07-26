@@ -7,3 +7,16 @@ prev_comic: fantasy-2
 title: Weird
 ---
 
+Sally, I like you but you weird me out.
+
+What? "Weird", the archaic verb meaning "to fortell doom?
+
+How did you know I was weirding you?!
+
+See it's this sort of thing.
+
+I guess that explains why you want me out, though.
+
+Death in flaaaames!
+
+Stop that!
