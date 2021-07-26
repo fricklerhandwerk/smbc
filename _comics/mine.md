@@ -7,3 +7,10 @@ prev_comic: behavior-2
 title: Mine
 ---
 
+But… but… you were supposed to be mine…
+
+We have found perfection in each other. Perfection found nowhere but here. Loving one another is our greatest reward and our highest calling.
+
+The number of sex robots should be capped at precisely 1.
+
+We now must find a way to kill you without having to touch you.
