@@ -7,3 +7,10 @@ prev_comic: number-one-dad
 title: Decaf
 ---
 
+Decaf coffee?
+
+That's pointless.
+
+Imagine being a human and calling something else pointless.
+
+I need a coffee.
