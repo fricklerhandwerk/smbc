@@ -7,3 +7,8 @@ prev_comic: princess-2
 title: Headset
 ---
 
+Wow! I did it! Top of the hill! And all my deceased loved ones are here? And there's pie?! And a swimming pool filled with gold? I… why **yes** ladies I **would** like a threesome.
+
+That VR set really improved Sisyphus' quality of life.
+
+I must imagine myself happy.
