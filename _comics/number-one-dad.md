@@ -7,3 +7,18 @@ prev_comic: twenty
 title: Number One Dad
 ---
 
+***I can't take it, wife!***
+
+***The kids are making me crazy! I'm behind on everything! The house is a disaster!***
+
+***I am tapping the fuck out, man! I surrender! I give up on parenting!***
+
+And so…
+
+Hey kids! Who wants macaroni and 8 hours of cartoons?
+
+Hoorayyyyy!
+
+Best dad ever!
+
+But why only 8?
