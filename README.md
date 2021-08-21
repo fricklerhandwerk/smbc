@@ -2,7 +2,7 @@
 
 This is an effort to transcribe [Saturday Morning Breakfast Cereal comics](https://www.smbc-comics.com) to make them searchable.
 
-[Read the latest strip here.](https://fricklerhandwerk.github.io/smbc/starstuff.html)
+[Read the latest strip here.](https://fricklerhandwerk.github.io/smbc/order.html)
 
 Using the strips for this purpose with Zach's permission:
 
