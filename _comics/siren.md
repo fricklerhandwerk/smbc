@@ -7,3 +7,16 @@ prev_comic: the-son
 title: Siren
 ---
 
+Captain! We're about to pass the island of the sirens!
+
+I order you to tie me to the mast!
+
+There. Though, honestly I don't see why you can't just use your will to resist the sirens.
+
+Sirens? What sirens?
+
+Uh…
+
+I order you to spank me!
+
+Tie me to the ship's wheel!
