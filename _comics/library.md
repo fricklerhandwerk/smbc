@@ -7,3 +7,10 @@ prev_comic: list
 title: Library
 ---
 
+Why are you vandalizing all these philosophy texts?
+
+It makes no difference!
+
+Funtime activity: Erasing every instance of "Ship of Theseus" in a book with the handwritten words "Ship of Theseus."
+
+(Technically your monitor is doing this right now)
