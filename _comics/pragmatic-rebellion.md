@@ -7,3 +7,16 @@ prev_comic: siren
 title: Pragmatic Rebellion
 ---
 
+Dave, either improve your numbers or you're f–
+
+You can't fire me!
+
+I have my dignity! I have my self respect! You can't fire me because I q… wait, hold on a sec.
+
+> Labor shortage continues – 10 million+ hires needed
+
+Because I **quit**!
+
+I'll raise your wage 2% and use the word "flexibility" from time to time.
+
+I'm in!
