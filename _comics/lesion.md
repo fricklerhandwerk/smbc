@@ -7,3 +7,6 @@ prev_comic: doom-3
 title: Lesion
 ---
 
+Nobody knows what internal mechanism produces airplanes, but if we lesion this region that contains hydrocarbons, it causes airplanes to stop. Therefore that area is called the "airplane moduluation structure."
+
+Lockin' up the neuroscience critique fandom…
