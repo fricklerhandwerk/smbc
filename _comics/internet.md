@@ -7,3 +7,10 @@ prev_comic: fair
 title: Internet
 ---
 
+I wish you could've known the internet when it was young and idyllic.
+
+You tould me when you were my age the internet was 100% nerds and/or chatroom fetishists.
+
+Yes, yes m'boy, it was a better time.
+
+Also, video games were better back when they sucked.
