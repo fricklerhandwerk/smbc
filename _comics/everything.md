@@ -7,3 +7,12 @@ prev_comic: peden
 title: Everything
 ---
 
+What's on the Everything Bagel?
+
+Everything. Literally everything. Otherwise it'd be false advertising.
+
+There are even tiny Everything Bagels because by definition the Everything Bagel contains everything, including itself.
+
+Why, what're other places selling?
+
+Try the Mandelbrotwurst!
