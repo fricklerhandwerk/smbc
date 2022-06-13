@@ -12,7 +12,7 @@ Using the strips for this purpose with Zach's permission:
 
 ## Why?
 
-You're about to make a point in an argument, and that one SMBC strip you read five years ago totally nailed it? But you can't find it anywhere... Fear not!
+You're about to make a point in an argument, and that one SMBC strip you read five years ago totally nailed it? But you can't find it anywhere… Fear not!
 
 From now on you can finally search for SMBC content on the web. With luck, the comic in question is already transcribed by volunteers and indexed by search engines.
 
@@ -26,7 +26,7 @@ Reddit user [v4lue4dded](https://www.reddit.com/user/v4lue4dded/) created a [mac
 
 SMBC Comics Forum dweller [NeatNit](http://www.smbc-comics.com/smbcforum/memberlist.php?mode=viewprofile&u=45166) transcribed [a handful of strips](https://www.google.com/search?q=%22transcript+%28for+search+engines%29%22+site%3Asmbc-comics.com) which were *Proudly ignored since 1867*.
 
-[ohnorobot.com](https://www.ohnorobot.com) offers [keyword search for SMBC transcripts](https://www.ohnorobot.com/index.php?comic=137) - if you know how to get there. There seems to be no itemized view of the database, so there is no search engine indexing. It is currently not possible to register to <s>borrow</s> <s>share</s> unleash the existing transcripts... They seem to be high quality though.
+[ohnorobot.com](https://www.ohnorobot.com) offers [keyword search for SMBC transcripts](https://www.ohnorobot.com/index.php?comic=137) - if you know how to get there. There seems to be no itemized view of the database, so there is no search engine indexing. It is currently not possible to register to <s>borrow</s> <s>share</s> unleash the existing transcripts… They seem to be high quality though.
 
 ## Contributing
 
