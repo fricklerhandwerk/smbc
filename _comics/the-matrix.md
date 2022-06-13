@@ -7,3 +7,12 @@ prev_comic: consider
 title: The Matrix
 ---
 
+Oh my god. I'm in a world like The Matrix.
+
+Like it's a simulation?
+
+No, like it started fascinating and mindblowing and beautiful, and then everything after has been weird and disappointing.
+
+***Duuuuude***.
+
+Say your life is like Star Wars and it'll sound better.
