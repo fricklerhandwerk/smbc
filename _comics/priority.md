@@ -7,3 +7,8 @@ prev_comic: ai-10
 title: Priority
 ---
 
+Just once, I'd like to see a science paper end like this:
+
+> This paper is not meant to be comprehensive or conclusive, but only a first step, taken in order to claim priority after someone else does the hard work.
+
+Look, I went to all the effort of drawing tha comic and you want a bonus panel too?
