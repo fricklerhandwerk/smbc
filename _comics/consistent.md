@@ -7,3 +7,10 @@ prev_comic: consciousness
 title: Consistent
 ---
 
+***What in god's name?! And there's a photo album?!***
+
+Whoa, calm down. All we can say is that the known facts are ***consistent*** with the interpretation that I have been secretly putting my balls on your houseplants for 20 years.
+
+Yes, yes you *can* get value out of a philosophy degree.
+
+What if you're just a Boltzmann brain? What of my balls then?
